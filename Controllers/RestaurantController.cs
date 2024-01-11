@@ -15,7 +15,7 @@ public class RestaurantController : ControllerBase
     }
     
     [HttpGet]
-    [Route("Choose/{category}")]
+    [Route("ChoosePizzaSushiOrBurgers/{category}")]
     public string Choose(string category)
     {
         return _restaurantService.Choose(category);

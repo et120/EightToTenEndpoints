@@ -15,24 +15,24 @@ public class GuessItController : ControllerBase
     }
 
     [HttpGet]
-    [Route("EasyGuess/{input}")]
-    public string EasyGuess(string input)
+    [Route("EasyGuessANumberBetweenOneAndTen/{inputNumber}")]
+    public string EasyGuess(string inputNumber)
     {
-        return _guessItService.EasyGuess(input);
+        return _guessItService.EasyGuess(inputNumber);
     }
 
     [HttpGet]
-    [Route("MediumGuess/{input}")]
-    public string MediumGuess(string input)
+    [Route("MediumGuessANumberBetweenOneAndFifty/{inputNumber}")]
+    public string MediumGuess(string inputNumber)
     {
-        return _guessItService.MediumGuess(input);
+        return _guessItService.MediumGuess(inputNumber);
     }
 
     [HttpGet]
-    [Route("HardGuess/{input}")]
-    public string HardGuess(string input)
+    [Route("HardGuessANumberBetweenOneAndOneHundred/{inputNumber}")]
+    public string HardGuess(string inputNumber)
     {
-        return _guessItService.HardGuess(input);
+        return _guessItService.HardGuess(inputNumber);
     }
 
 }

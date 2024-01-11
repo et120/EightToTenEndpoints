@@ -15,7 +15,7 @@ public class MagicBallController : ControllerBase
     }
 
     [HttpGet]
-    [Route("Generate/")]
+    [Route("Generate8BallResponseToQuestion/")]
     public string Generate()
     {
         return _magicBallService.Generate();

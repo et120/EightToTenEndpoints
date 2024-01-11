@@ -13,15 +13,15 @@ public class GuessItService : IGuessItService
         {
             if (inputNum > easyNum)
             {
-                return $"{inputNum} is GREATER than the actual number.";
+                return $"{inputNum} was GREATER than the actual number. Sorry!";
             }
 
             if (inputNum < easyNum)
             {
-                return $"{inputNum} is LESS than the actual number.";
+                return $"{inputNum} was LESS than the actual number. Aw, shucks!";
             }
 
-            return $"{inputNum} is EQUAL to the actual number!";
+            return $"{inputNum} was the actual number! Today, will be a lucky day! :)";
         }
         else
         {
@@ -40,15 +40,15 @@ public class GuessItService : IGuessItService
         {
             if (inputNum > mediumNum)
             {
-                return $"{inputNum} is GREATER than the actual number.";
+                return $"{inputNum} was GREATER than the actual number. Sorry!";
             }
 
             if (inputNum < mediumNum)
             {
-                return $"{inputNum} is LESS than the actual number.";
+                return $"{inputNum} was LESS than the actual number. Boo!";
             }
 
-            return $"{inputNum} is EQUAL to the actual number!";
+            return $"{inputNum} was the actual number! You are a lucky one! :p";
         }
         else
         {
@@ -67,15 +67,15 @@ public class GuessItService : IGuessItService
         {
             if (inputNum > hardNum)
             {
-                return $"{inputNum} is GREATER than the actual number.";
+                return $"{inputNum} was GREATER than the actual number. Sorry!";
             }
 
             if (inputNum < hardNum)
             {
-                return $"{inputNum} is LESS than the actual number.";
+                return $"{inputNum} was LESS than the actual number. Oh, well!";
             }
 
-            return $"{inputNum} is EQUAL to the actual number!";
+            return $"{inputNum} was the actual number! Luck is on your side, my friend! :o";
         }
         else
         {
