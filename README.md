@@ -21,10 +21,10 @@ Hard Mode 1-100
 
 
 ## Peer Review
-**Name:** first last **Date/ Time:** 1/11/2024 xx:xx PM
+**Name:** Tyler Nguyen **Date/ Time:** 1/11/2024 1:50 PM
 
 **Comment(s):**
-
+Code works on postman and swagger. Everything looks good, one thing I had trouble with is figuring out what to input into the box - Such as the restaurant picker I didn't know what to put in until I executed the Endpoint to see the choices. For this fix I would put the choices inside the Routes. Good job!
 
 
 ---
